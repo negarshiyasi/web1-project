@@ -1,0 +1,153 @@
+header{
+    width: 100%;
+    height: 195px;
+    box-shadow: 0 1px 5px lightgray;
+}
+header .top {
+    width:inherit;
+    height: 60px;
+    background-color: aqua;
+}
+header .top a{
+    text-decoration: none;
+}
+header .top a img{
+    width: 100%;
+    height: 60px;
+    object-fit: cover;
+}
+header .bottom{
+    width: inherit;
+    height:calc(195px - 60px) ;
+}
+header .bottom .upBottom{
+    width: inherit;
+    height:90px ;
+}
+header .bottom .upBottom .center{
+    width: 1425px;
+    height: inherit;
+    margin: 0 auto;
+}
+header .bottom .upBottom .center .login{
+    width: 200px;
+    height: inherit;
+    padding-top: 25px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+header .bottom .upBottom .center .login .bag{
+    text-decoration: none;
+    margin: 5px 10px;
+    display: inline-block;
+
+}
+header .bottom .upBottom .center .login  i{
+    font-size: 30px;
+    color: #2b2b2b;
+    transition: 300ms;
+}
+header .bottom .upBottom .center .login  i:hover{
+    color:#00BF70;
+}
+header .bottom .upBottom .center .login .register{
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background-color: #00BF70;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: Yekan;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;
+    color: whitesmoke;
+    vertical-align: top;
+    transition: 300ms;
+}
+header .bottom .upBottom .center .login .register:hover{
+    
+    background-color: #05995b;
+}
+header .bottom .upBottom .center .search{
+    width: 950px;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    text-align: center;
+}
+header .bottom .upBottom .center .search input[type=search]{
+    width: 700px;
+    height: 50px;
+    background-color: #F5F5F5;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    outline: none;
+    border: unset;
+    transition: 300ms;
+}
+header .bottom .upBottom .center .search input[type=search]::placeholder{
+    font-family: Yekan;
+    color: grey;
+}
+header .bottom .upBottom .center .search input[type=search]:focus{
+    box-shadow: 0 5px 25px #2b2b2b;
+}
+header .bottom .upBottom .center .logo{
+    display: inline-block;
+    height: inherit;
+    vertical-align: top;
+    margin-right: -4px;
+}
+header .bottom .upBottom .center .logo svg{
+    margin-top: 24px;
+}
+header .bottom .downBottom{
+     width: 100%;   
+     height: 45px;
+}
+header .bottom .downBottom .center{
+    width: 1425px;
+    height: inherit;
+    margin: 0 auto;
+}
+header .bottom .downBottom .center nav{
+    width: inherit;
+    height: inherit;
+}
+header .bottom .downBottom .center nav ul{
+    width: inherit;
+    height: inherit;
+    list-style: none;
+}
+header .bottom .downBottom .center nav ul li{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+}
+header .bottom .downBottom .center nav ul li a{
+    display: block;
+    width: auto;
+    height: inherit;
+    line-height: 45px;
+    font-family: Yekan;
+    font-size: 12px;
+    text-decoration: none;
+    color: #2b2b2b;
+    padding: 0 20px;
+}
+header .bottom .downBottom .center nav ul li a i{
+    margin: 0 10px;
+}
+.border span{
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    background-color: grey;
+    margin-left: 10px;
+    vertical-align: middle;
+}

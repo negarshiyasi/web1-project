@@ -1,0 +1,31 @@
+.sliderBottom{
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.sliderBottom .center{
+    width: 1425px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.sliderBottom .center .right{
+    width: 430px;
+    height: 430px;
+    display: inline-block;
+    vertical-align: top;
+}
+.sliderBottom .center .right img{
+    border-radius: 30px;
+}
+.sliderBottom .center .left{
+    width: 930px;
+    height: 430px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.sliderBottom .center .left img{
+    width: 100%;
+    height: inherit;
+    border-radius: 30px;
+}

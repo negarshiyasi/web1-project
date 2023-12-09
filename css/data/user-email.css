@@ -1,0 +1,59 @@
+.user-email {
+    width: 1440px;
+    height: 400px;
+    background-color: #F8F8F8;
+    margin: 300px auto;
+    text-align: center;
+    /* line-height: 500; */
+}
+
+.user-email h2,
+.user-email p {
+    font-family: Yekan;
+}
+
+.user-email .newsletter {
+    text-align: left;
+}
+
+.user-email form {
+    margin-top: 20px;
+}
+
+.user-email form input[type=email] {
+    font-family: Yekan;
+    background-color: #F8F8F8;
+    width: 450px;
+    height: 54px;
+    border-radius: 30px;
+    padding-right: 20px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    font-family: Yekan;
+}
+
+.user-email form button {
+    background-color: #009657;
+    color: whitesmoke;
+    border: 0;
+    font-family: Yekan;
+    font-size: 18px;
+    /* font-weight: 700; */
+    width: 140px;    padding-right: 10px;
+
+    height: 52px;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.user-email form button span {
+    float: right;
+}
+
+.user-email form button .fa-arrow-left {
+    float: left;
+}

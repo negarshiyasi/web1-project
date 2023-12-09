@@ -1,0 +1,205 @@
+footer {
+    width: 100%;
+    border-top: 5px solid #f9f9f9;
+    font-family: Yekan;
+}
+
+footer .row {
+    width: 1440px;
+    margin: 50px auto;
+}
+
+footer .row .col {
+    width: 210px;
+    height: 264px;
+    display: inline-block;
+}
+
+footer .row .col ul {
+    list-style: none
+}
+
+footer .row .col ul .col-title {
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+
+footer .row .col ul li {
+    margin-bottom: 10px;
+}
+
+footer .row .col ul li a {
+    text-decoration: none;
+    padding-bottom: 5px;
+
+}
+
+footer .row .col ul li a .link-hover {
+    width: 100%;
+    /* height: 1px; */
+    position: absolute;
+    border-bottom: 1px solid #19b66d;
+    left: 0;
+    bottom: 0;
+    transform: scale(0, 0);
+    transition: 300ms;
+}
+
+footer .row .col ul li:hover a {
+    color: #19b66d;
+}
+
+footer a:visited {
+    color: #343a40;
+}
+
+footer .row .col ul li:hover a .link-hover {
+    transform: scale(1, 1);
+}
+
+footer .row .left-col {
+    width: 360px;
+    /* height: 264px; */
+    /* float: left; */
+    display: inline-block;
+}
+
+footer .row .left-col p {
+    margin-bottom: 20px;
+}
+
+footer .row .left-col .tel-sms {
+    width: 330px;
+}
+
+footer .row .left-col .tel-sms .tel {
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+footer .row .left-col a {
+    text-decoration: none;
+    color: #343a40;
+    font-weight: 700;
+
+}
+
+footer .row .left-col a:hover {
+    color: #19b66d;
+}
+
+footer .row .left-col .tel-sms .sms {
+    height: 47px;
+    display: inline-block;
+}
+
+footer .row .footer-logo {
+    display: inline-block;
+    height: 100%;
+    line-height: 100%;
+}
+
+footer .row .footer-logo .logo {
+    width: 330px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 50px;
+}
+
+footer .row .footer-logo .download-app {
+    text-decoration: none;
+    width: 231px;
+    border: 1px solid #00bf6f;
+    color: #00bf6f;
+    border-radius: 30px;
+    padding: 10px 70px;
+}
+
+footer .row .footer-logo .download-app svg {
+    margin-left: 8px;
+}
+
+footer .row .footer-logo .download-app:hover {
+    border: 1px solid #1ac977;
+    color: #1ac977;
+}
+
+footer .row .footer-logo ul {
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    height: 45px;
+}
+
+footer .row .footer-logo ul li {
+    margin-left: 10px;
+}
+
+footer .row .footer-logo ul li a {
+    margin-left: 10px;
+}
+
+footer .row .footer-logo ul li a svg {
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 12px;
+}
+
+footer .row .footer-logo ul li a svg:hover path {
+    fill: #19b66d;
+    border: 1px solid #19b66d;
+}
+
+
+footer .row .footer-title {
+    color: #888;
+    font-size: 11px;
+    margin-bottom: 10px;
+    font-weight: normal !important;
+}
+
+footer .row .paragraph {
+    width: 810px;
+    text-align: justify;
+    color: #888;
+    line-height: 2.5;
+    font-size: 14px;
+}
+
+footer .row .paragraph a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+
+footer .row .paragraph a:hover {
+    text-decoration: underline;
+    color: #19b66d;
+
+}
+
+footer .copyright-row {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+footer .copyright-row .persian-copyright {
+    width: 720px;
+    display: inline-block;
+}
+
+
+footer .copyright-row p{
+    font-size: 14px;
+}
+
+footer .copyright-row .english-copyright {
+    width: 720px;
+    /* display: inline; */
+    text-align: left;
+    float: left;
+}

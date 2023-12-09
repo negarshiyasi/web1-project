@@ -1,0 +1,115 @@
+.woow {
+    width: 100%;
+    height: 700px;
+    /* background-color: #2b2b2b; */
+    padding: 50px;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+}
+
+.woow .center {
+    width: 1425px;
+    height: 600px;
+    /* background-color: green; */
+    margin: 0 auto;
+}
+
+.woow .center h2 {
+    text-align: center;
+    font-family: Yekan;
+    font-weight: 400;
+}
+
+.bgColor {
+    background-color: whitesmoke;
+}
+
+.flex {
+    flex-direction: column !important;
+}
+
+.swiper-slide img {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.swiper-slide .flex::after {
+    content: attr(data-discount);
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    border-radius: 50%;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.swiper-slide .price {
+    width: 100%;
+}
+
+.swiper-slide .price .left,
+.swiper-slide .price .right {
+    display: inline-block;
+    width: 45%;
+}
+
+.swiper-slide .price .left {
+    text-align: left;
+    font-family: Yekan;
+    color: black;
+    /* color: whitesmoke; */
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.swiper-slide .price .right {
+    text-align: right;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 700;
+    /* color: whitesmoke; */
+}
+
+.swiper-slide .text {
+    width: 100%;
+}
+
+.swiper-slide .text .left,
+.swiper-slide .text .right {
+    display: inline-block;
+    width: 45%;
+}
+
+.swiper-slide .text .left {
+    text-align: left;
+    font-family: Yekan;
+    color: black;
+    /* color: whitesmoke; */
+    font-size: 12px;
+    /* text-decoration: line-through; */
+}
+
+.swiper-slide .text .right {
+    text-align: right;
+    font-size: 14px;
+    /* text-transform: capitalize; */
+    color: black;
+    /* color: whitesmoke; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.woow .right img {
+    width: 300px;
+    object-fit: cover;
+}
